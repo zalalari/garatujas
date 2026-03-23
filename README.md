@@ -11,3 +11,8 @@ HTML significa hyper text mekup language
 ## CSS o que é?
 
 O CSS (Cascading Style Sheets) é a linguagem usada para definir a aparência visual de páginas web, separando o conteúdo HTML da sua apresentação.
+
+## block
+block=espaço inteiro
+inline=espaço da frase
+inline-block=
