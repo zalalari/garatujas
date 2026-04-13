@@ -1,5 +1,5 @@
 ## HTML - HyperText Markup Language (Linguagem de Marcação de Hipertexto)
-HTML é, como o neme diz, uma linguagem de marcação. Ou seja, nós a utilizamos para estruturar uma página web, o visual da página. Ele organiza o conteúdo da página web para que possa ser consumido por todo tipo de usuário, incluindo aqueles com deficiências. 
+HTML é, como o nome diz, uma linguagem de marcação. Ou seja, nós a utilizamos para estruturar uma página web, o visual da página. Ele organiza o conteúdo da página web para que possa ser consumido por todo tipo de usuário, incluindo aqueles com deficiências. 
 No HTML existem as chamadas tags(etiquetas), que tem o tipo de conteúdo e sua função na página definidos. Por exemplo, `<h1>` é usado para títulos principais, `<p>` para parágrafos, `<a>` para links, entre outros. O HTML também permite a inclusão de atributos nas tags para fornecer informações adicionais sobre os elementos, como `class`, `id`, `src`, etc.
 As tags ficam dentro de colchetes `<>`, `<p>`por exemplo. O início de uma tag começa somente com os colchetes, `<strong>`, e utiliza a barra (/) para fecha-la, `</strong>`.
 
