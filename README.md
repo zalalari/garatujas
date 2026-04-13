@@ -5,6 +5,7 @@ As tags ficam dentro de colchetes `<>`, `<p>`por exemplo. O início de uma tag c
 
 >**NOTA** 
 Sempre que o negrito ou itálico tiver significado no conteúdo, prefira `<strong>` e `<em>`. Use `<b>` e `<i>`apenas quando a intenção for exclusivamente estética.
+>
 
 ### Estrutura básica de um documento HTML
 
