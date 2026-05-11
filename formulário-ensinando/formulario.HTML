@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #check-termos {
+            display: none;
+        }
+
+        #check-termos:checked+div {
+            color: red;
+        }
+
+        aside {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            background-color: lightcoral;
+            transform: translateX(-100%);
+            transition: .3s;
+        }
+
+        #toggle-aside:checked+aside {
+            transform: translateX(0);
+        }
+
+        main {
+            border: 2px solid red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+    <input type="checkbox" id="check-termos" name="termos">
+    <div>
+        oieeee galer
+    </div>
+
+
+    <form action="" method="get">
+
+        <div>
+            <label for="inp-nome">Nome</label>
+            <input type="text" name="nome" id="inp-nome">
+        </div>
+
+        <div>
+            <label for="sel-posicao">etinia</label>
+            <select id="sel-posicao">
+                <option>preto</option>
+                <option>pardo</option>
+                <option>branco</option>
+                <option>amarelo</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Posição</label>
+            <input type="radio" name="posicao">Cima
+            <input type="radio" name="posicao">Baixo
+            <input type="radio" name="posicao">Esquerda
+            <input type="radio" name="posicao">Direita
+        </div>
+
+        <div>
+            <label for="txt-mensagem">Mensagem</label>
+            <textarea id="txt-mensagem" name="mensagem" cols="30" rows="10">oi...</textarea>
+        </div>
+
+        <div>
+            <label for="check-termos">Termos de Uso</label>
+        </div>
+
+        <button>
+            akdjsahdkjh
+        </button>
+
+    </form>
+    </main>
+
+
+    <input id="toggle-aside" type="checkbox">
+    <aside>
+        <h2>Sidebar</h2>
+        <p>This is the sidebar content.</p>
+        <label for="toggle-aside">Close Sidebar</label>
+    </aside>
+
+
+</body>
+
+</html>
