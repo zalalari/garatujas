@@ -1,0 +1,133 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto2</title>
+    <style>
+
+        body {
+            background-image: url(imagem/image\ copy.png);
+            image-rendering: auto;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        main {
+            background-color: rgba(120, 90, 39, 0.314);
+            width: 300px;
+            border: 5px solid rgb(255, 170, 0);
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px white;
+            
+        }
+
+        p.aparecer {
+            border-radius: 20px;
+            padding: 10px;
+            background-color: rgb(255, 210, 131);
+            color: rgb(8, 9, 11);
+            border: 5px solid  rgb(255, 170, 0);
+            box-shadow: 0 0 10px white;
+        }
+
+        h1 {
+            border: 3px solid  rgb(255, 170, 0);
+            border-radius: 20px;
+            padding: 10px;
+            background-color: rgb(255, 210, 131);
+            color:  rgb(0, 0, 0);
+            text-align: center;
+            border: 5px solid  rgb(255, 170, 0);
+            box-shadow: 0 0 10px white; 
+            text-shadow: 0 0 5px white;
+        }
+
+        p input {
+            background-color: rgba(255, 255, 255, 0.442); 
+            border-radius: 20px;
+            border: 3px solid rgb(201, 158, 5);
+            padding: 4px;
+            outline: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+
+        button {
+            border: 3px solid rgb(237, 187, 102);
+            border-radius: 20px;
+            padding: 10px;
+            background-color:rgb(255, 210, 131);
+            color: rgb(8, 9, 11);
+            text-align: center;
+            border: 5px solid  rgb(255, 170, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            box-shadow: 0 0 10px white;
+        }
+            
+
+        label {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        a {
+            color: white;
+       text-shadow: 0 0 10px white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <main>
+        <div>
+
+            <h1>Cadastre-se agora no nosso site de astronomia</h1>
+
+            <form action="" method="get">
+                <p class="aparecer">
+            <label for="inp-nome">Nome de usuário:</label>
+            <input type="text" name="nome" id="inp-nome">
+        </p>
+
+        <p class="aparecer">
+            <label for="email">Insira seu email:</label>
+            <input type="email" name="Email" id="email">
+        </p>
+
+         <p class="aparecer">
+            <label for="data">Insira sua data de nascimento:</label>
+                <input type="date" name="idade" id="data" >
+         </p>
+
+        <p class="aparecer">
+            <label for="senha">Crie uma senha:</label>
+            <input type="password" name="senha" id="senha">
+        </p>
+
+         <p class="aparecer">
+            <label for="senha2">Confirme sua senha:</label>
+            <input type="password" name="senha" id="senha2">
+         </p>
+
+        <p class="aparecer">
+           <label for="checkbox">Aceite nossos termos de uso:</label>
+           <input type="checkbox" id="checkbox">
+        </p>
+
+       <button>Enviar</button>
+
+
+      <div class="none"><a href="Pinicial.html">voltar</a></div>
+
+            </form>
+        </div>
+    </main>
+
+</body>
+     
+</html>
