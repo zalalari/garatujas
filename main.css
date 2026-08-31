@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-content: center;
+    background-color: black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 500px;
+    height: 500px;
+    border: 40px solid white;
+    border-radius: 10%;
+
+}
+
+button {
+    font-size: 5rem;
+
+}
+
